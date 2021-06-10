@@ -14,21 +14,7 @@ For my own server setup, I decided to choose Debian 10.
 There could be multiple issues faced after installing your OS.
 Jotting down some of the issues I faced & how I solved them.
 
-### 2.1: Sudo doesn't work
-
-Note that sudo doesn't come with Debian by default, so you would have to install it.
-
-```
-apt-get install sudo
-```
-
-Then grant relevant user access to sudo by adding the following at the end of `/etc/sudoers` file
-
-```
-username  ALL=(ALL) NOPASSWD:ALL
-```
-
-### 2.2: Unable to connect to internet
+### 2.1: Unable to connect to internet
 
 Connecting to internet is not so straightforward without a desktop GUI.
 You would need to add the following into `/etc/network/interfaces` as described [here](https://askubuntu.com/questions/330093/cant-connect-to-a-wired-connection)
@@ -42,7 +28,21 @@ Note that I am assuming eth0 is your networking device. Use `ip addr` to identif
 Finally, restart your networking service.
 
 ```
-sudo systemctl restart networking
+systemctl restart networking
+```
+
+### 2.2: Sudo doesn't work
+
+Note that sudo doesn't come with Debian by default, so you would have to install it.
+
+```
+apt-get install sudo
+```
+
+Then grant relevant user access to sudo by adding the following at the end of `/etc/sudoers` file
+
+```
+username  ALL=(ALL) NOPASSWD:ALL
 ```
 
 ## Step 3: Installing required softwares
