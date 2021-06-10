@@ -45,6 +45,18 @@ Finally, restart your networking service.
 sudo systemctl restart networking
 ```
 
+## Step 3: Installing required softwares
+
+### 3.1: Git
+
+```
+sudo apt-get install git-all
+```
+
+### 3.2: Docker
+
+Follow instructions [here](https://docs.docker.com/engine/install/debian/)
+
 ## References
 
 Other people's project
