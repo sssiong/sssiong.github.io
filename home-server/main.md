@@ -16,7 +16,16 @@ Jotting down some of the issues I faced & how I solved them.
 
 ### 2.1: Sudo doesn't work
 
-Note that sudo doesn't come with Debian by default, so you would have to install it.
+Note that sudo doesn't come with Debian by default, so you would have to install it as described [here](https://documentation.arcserve.com/Arcserve-UDP/Available/V6.5/ENU/Bookshelf_Files/HTML/Agent%20Online%20Help%20Linux/Content/AgentforLinuxUserGuide/udpl_config_sudo_debian.htm)
+
+```
+apt-get install sudo
+```
+
+Then add relevant user to sudo group
+```
+adduser user sudo
+```
 
 ### 2.2: Unable to connect to internet
 
