@@ -45,6 +45,10 @@ Then grant relevant user access to sudo by adding the following at the end of `/
 username  ALL=(ALL) NOPASSWD:ALL
 ```
 
+### 2.3: Server Date Wrong
+
+Following instructions [here](https://wiki.debian.org/NTP)
+
 ## Step 3: Installing required softwares
 
 ### 3.1: Git
