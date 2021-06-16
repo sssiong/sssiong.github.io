@@ -47,7 +47,7 @@ username  ALL=(ALL) NOPASSWD:ALL
 
 ### 2.3: Server Date Wrong
 
-Following instructions [here](https://wiki.debian.org/NTP)
+Use `date -R` to determine your server's date and time. If it's off, follow instructions [here](https://wiki.debian.org/NTP)
 
 ## Step 3: Installing required softwares
 
