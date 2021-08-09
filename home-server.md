@@ -62,9 +62,19 @@ sudo apt-get install git-all
 - Docker Engine is the open source containerization tool for containerizing your application. To install, follow instructions [here](https://docs.docker.com/engine/install/debian/)
 - Docker Compose is a tool used to run multi-container Docker applications. To install, follow instructions [here](https://docs.docker.com/compose/install/)
 
-### 3.3: Desktop Environment
+## Step 4: Desktop Environment
+
+### 4.1: Installing Desktop
 
 There are many options to choose from if there is a need for a desktop GUI. Refer [here](https://wiki.debian.org/DesktopEnvironment) for more details.
+
+### 4.2: Google Chrome
+
+Follow steps [here](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-debian-10/) to install Chrome
+
+### 4.3: Teamviewer
+
+Follow steps [here](https://linuxize.com/post/how-to-install-teamviewer-on-debian-10/) to install Teamviewer
 
 ## References
 
