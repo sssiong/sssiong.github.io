@@ -62,6 +62,10 @@ sudo apt-get install git-all
 - Docker Engine is the open source containerization tool for containerizing your application. To install, follow instructions [here](https://docs.docker.com/engine/install/debian/)
 - Docker Compose is a tool used to run multi-container Docker applications. To install, follow instructions [here](https://docs.docker.com/compose/install/)
 
+### 3.3: Desktop Environment
+
+There are many options to choose from if there is a need for a desktop GUI. Refer [here](https://wiki.debian.org/DesktopEnvironment) for more details.
+
 ## References
 
 Other people's project
