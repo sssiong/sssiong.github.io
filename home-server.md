@@ -9,7 +9,7 @@ Fret not, there are many interesting side projects that you can embark on with t
 You will likely want to choose one of the linux flavour for this.
 For my own server setup, I decided to choose Debian 10.
 
-## Step 2: After Installation
+## Step 2: Issues After Installation
 
 There could be multiple issues faced after installing your OS.
 Jotting down some of the issues I faced & how I solved them.
@@ -49,7 +49,7 @@ username  ALL=(ALL) NOPASSWD:ALL
 
 Use `date -R` to determine your server's date and time. If it's off, follow instructions [here](https://wiki.debian.org/NTP)
 
-## Step 3: Installing required softwares
+## Step 3: Potential Softwares Required
 
 ### 3.1: Git
 
@@ -66,4 +66,3 @@ sudo apt-get install git-all
 
 Other people's project
 - [How I turned my old laptop into a server](https://dev.to/jayesh_w/this-is-how-i-turned-my-old-laptop-into-a-server-1elf)
-- 
